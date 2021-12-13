@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211124021034_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211124021034_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211124021305_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211124021305_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211124021413_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211124021413_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211124021524_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211124021524_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211124022722_CargaUsuariosMigration.cs" />
+    <Compile Remove="Migrations\20211124022722_CargaUsuariosMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211204004643_CambioInventarioEquipo.cs" />
+    <Compile Remove="Migrations\20211204004643_CambioInventarioEquipo.Designer.cs" />
+    <Compile Remove="Migrations\20211204022516_CambioInventarioEquipo.cs" />
+    <Compile Remove="Migrations\20211204022516_CambioInventarioEquipo.Designer.cs" />
+    <Compile Remove="Migrations\20211204180349_CambioInventarioEquipo.cs" />
+    <Compile Remove="Migrations\20211204180349_CambioInventarioEquipo.Designer.cs" />
+    <Compile Remove="Migrations\20211204180915_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211204180915_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211204191146_UsuarioMigration.cs" />
+    <Compile Remove="Migrations\20211204191146_UsuarioMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211204231719_IngresoTipoEquipoMigration.cs" />
+    <Compile Remove="Migrations\20211204231719_IngresoTipoEquipoMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211204234916_RequerimientoHVMigration.cs" />
+    <Compile Remove="Migrations\20211204234916_RequerimientoHVMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211205005636_FirstMigration.cs" />
+    <Compile Remove="Migrations\20211205005636_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211210011600_FechaTicketMigration.cs" />
+    <Compile Remove="Migrations\20211210011600_FechaTicketMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211210012526_AddTicketMigration.cs" />
+    <Compile Remove="Migrations\20211210012526_AddTicketMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211210012828_UsuariosEquipoMigration.cs" />
+    <Compile Remove="Migrations\20211210012828_UsuariosEquipoMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+</Project>

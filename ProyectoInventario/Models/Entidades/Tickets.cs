@@ -17,6 +17,7 @@ namespace ProyectoInventario.Models.Entidades
         public DateTime fecha { get; set; }
 
         [Column(TypeName = "int")]
+        public int UsuarioId { get; set; }
         public Users Usuario { get; set; }
 
         [Column(TypeName = "int")]

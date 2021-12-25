@@ -24,6 +24,8 @@ namespace ProyectoInventario.Models
         public DbSet<Permisos> Permiso { get; set; }
         public DbSet<Modulo> Modulos { get; set; }
         public DbSet<Intentos> IntentosUsuarios { get; set; }
+        public DbSet<Delegar> Delegar { get; set; }
+        public DbSet<Administrador> AdminUser { get; set; }
         public object Modelo { get; internal set; }
 
         //public string connectionString;

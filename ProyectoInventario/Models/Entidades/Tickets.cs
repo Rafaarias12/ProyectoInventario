@@ -40,5 +40,7 @@ namespace ProyectoInventario.Models.Entidades
 
         [Column(TypeName = "int")]
         public int Estado { get; set; }
+
+        //public ICollection<Delegar> Delegar { get; set; }
     }
 }

@@ -37,6 +37,10 @@
     <Compile Remove="Migrations\20211210012526_AddTicketMigration.Designer.cs" />
     <Compile Remove="Migrations\20211210012828_UsuariosEquipoMigration.cs" />
     <Compile Remove="Migrations\20211210012828_UsuariosEquipoMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211225161626_DelegarDocumento.cs" />
+    <Compile Remove="Migrations\20211225161626_DelegarDocumento.Designer.cs" />
+    <Compile Remove="Migrations\20211225163341_DelegarDocumento.cs" />
+    <Compile Remove="Migrations\20211225163341_DelegarDocumento.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
